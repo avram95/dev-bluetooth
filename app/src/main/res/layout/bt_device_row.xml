@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/deviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/deviceIcon"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/deviceDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/deviceName"
+        android:layout_below="@+id/deviceName"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/deviceState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/deviceDesc"
+        android:layout_alignBottom="@+id/deviceDesc"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/deviceDesc"
+        android:text="TextView"
+        android:textColor="#0f0" />
+
+    <ImageView
+        android:id="@+id/deviceIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icomisc" />
+
+    <TextView
+        android:id="@+id/deviceServices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/deviceState"
+        android:layout_alignBottom="@+id/deviceState"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/deviceState"
+        android:text="TextView"
+        android:textColor="#f00" />
+
+</RelativeLayout>

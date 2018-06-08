@@ -1,0 +1,4 @@
+#Tue May 29 17:38:53 EEST 2018
+base.0=D\:\\Android\\Projects\\ArduinoPad1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
+path.0=classes.dex
+renamed.0=classes.dex
